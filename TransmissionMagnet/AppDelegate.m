@@ -12,9 +12,9 @@
 {
     NSAppleEventManager *appleEventManager = [NSAppleEventManager sharedAppleEventManager];
     [appleEventManager setEventHandler:self andSelector:@selector(handleURLEvent:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
-    NSLog(@"NOW");
+
     _sessionID = nil;
-    
+
     [self prepareRequest];
 
 }
