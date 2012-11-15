@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471B43C316551E21009A2E71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 471B43C216551E21009A2E71 /* README.md */; };
 		475AFB191653C30800247D0B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475AFB181653C30800247D0B /* Cocoa.framework */; };
 		475AFB231653C30800247D0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 475AFB211653C30800247D0B /* InfoPlist.strings */; };
 		475AFB251653C30800247D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 475AFB241653C30800247D0B /* main.m */; };
-		475AFB291653C30800247D0B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 475AFB271653C30800247D0B /* Credits.rtf */; };
 		475AFB2C1653C30800247D0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475AFB2B1653C30800247D0B /* AppDelegate.m */; };
-		475AFB2F1653C30800247D0B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475AFB2D1653C30800247D0B /* MainMenu.xib */; };
-		475AFB321653C30800247D0B /* TransmissionMagnet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 475AFB301653C30800247D0B /* TransmissionMagnet.xcdatamodeld */; };
+		47962A4816545FEB009F63C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47962A4616545FEB009F63C9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471B43C216551E21009A2E71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		475AFB141653C30800247D0B /* TransmissionMagnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransmissionMagnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475AFB181653C30800247D0B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		475AFB1B1653C30800247D0B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -26,11 +26,9 @@
 		475AFB221653C30800247D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		475AFB241653C30800247D0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		475AFB261653C30800247D0B /* TransmissionMagnet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransmissionMagnet-Prefix.pch"; sourceTree = "<group>"; };
-		475AFB281653C30800247D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		475AFB2A1653C30800247D0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		475AFB2B1653C30800247D0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		475AFB2E1653C30800247D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		475AFB311653C30800247D0B /* TransmissionMagnet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TransmissionMagnet.xcdatamodel; sourceTree = "<group>"; };
+		47962A4716545FEB009F63C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = TransmissionMagnet/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +46,7 @@
 		475AFB091653C30800247D0B = {
 			isa = PBXGroup;
 			children = (
+				471B43C216551E21009A2E71 /* README.md */,
 				475AFB1E1653C30800247D0B /* TransmissionMagnet */,
 				475AFB171653C30800247D0B /* Frameworks */,
 				475AFB151653C30800247D0B /* Products */,
@@ -86,8 +85,7 @@
 			children = (
 				475AFB2A1653C30800247D0B /* AppDelegate.h */,
 				475AFB2B1653C30800247D0B /* AppDelegate.m */,
-				475AFB2D1653C30800247D0B /* MainMenu.xib */,
-				475AFB301653C30800247D0B /* TransmissionMagnet.xcdatamodeld */,
+				47962A4616545FEB009F63C9 /* MainMenu.xib */,
 				475AFB1F1653C30800247D0B /* Supporting Files */,
 			);
 			path = TransmissionMagnet;
@@ -100,7 +98,6 @@
 				475AFB211653C30800247D0B /* InfoPlist.strings */,
 				475AFB241653C30800247D0B /* main.m */,
 				475AFB261653C30800247D0B /* TransmissionMagnet-Prefix.pch */,
-				475AFB271653C30800247D0B /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,8 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				475AFB231653C30800247D0B /* InfoPlist.strings in Resources */,
-				475AFB291653C30800247D0B /* Credits.rtf in Resources */,
-				475AFB2F1653C30800247D0B /* MainMenu.xib in Resources */,
+				47962A4816545FEB009F63C9 /* MainMenu.xib in Resources */,
+				471B43C316551E21009A2E71 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +168,6 @@
 			files = (
 				475AFB251653C30800247D0B /* main.m in Sources */,
 				475AFB2C1653C30800247D0B /* AppDelegate.m in Sources */,
-				475AFB321653C30800247D0B /* TransmissionMagnet.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,20 +182,13 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		475AFB271653C30800247D0B /* Credits.rtf */ = {
+		47962A4616545FEB009F63C9 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				475AFB281653C30800247D0B /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		475AFB2D1653C30800247D0B /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				475AFB2E1653C30800247D0B /* en */,
+				47962A4716545FEB009F63C9 /* en */,
 			);
 			name = MainMenu.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -301,21 +290,9 @@
 				475AFB371653C30800247D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		475AFB301653C30800247D0B /* TransmissionMagnet.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				475AFB311653C30800247D0B /* TransmissionMagnet.xcdatamodel */,
-			);
-			currentVersion = 475AFB311653C30800247D0B /* TransmissionMagnet.xcdatamodel */;
-			path = TransmissionMagnet.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 475AFB0B1653C30800247D0B /* Project object */;
 }
