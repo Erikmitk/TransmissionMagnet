@@ -63,6 +63,9 @@
                                                                                                       withTemplate:@""]] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 
        [self setSessionIDandConnect];
+
+    }else{
+        _sessionID = nil;
     }
 }
 
